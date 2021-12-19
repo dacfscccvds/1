@@ -1,0 +1,66 @@
+{
+  "name": "dacfscccvds",
+  "description": "تم تعريب الملف بوسطه @Sameer_Essam",
+  "keywords": ["music", "voicechat", "telegram"],
+  "logo": "https://telegra.ph/file/7ee1144fb6895b2e6f38f.jpg",
+  "repository": "#YYYBD",
+  "env": {
+    "SESSION_NAME": {
+      "description": "كود جلسه البايروجرام",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "توكن البوت",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "اسم البوت",
+      "required": false
+    },
+    "API_ID": {
+      "description": "ايباي ايدي",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "هيروكو ايباي",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم تطبيق الهيروكو",
+      "required": false
+    },
+    "API_HASH": {
+      "description": "ايباي هاش",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "ايدبهات المطورين",
+      "required": false
+    },
+    "DURATION_LIMIT": {
+      "description": "اقصي مده لتشغيل الاغاني",
+      "required": false,
+      "value": "15"
+    },
+    "BOT_USERNAME": {
+      "description": "معرف البوت",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "ايدي مالك البوت",
+      "required": false
+    },
+    "UPDATES_CHANNEL": {
+      "description": "قناة التحديثات",
+      "required": false
+    },
+    "GROUP_SUPPORT": {
+      "description": "مجموعة المساعدة",
+      "required": false
+    },
+    "ASSISTANT_USERNAME": {
+      "description": "معرف الحساب المساعد",
+      "required": false
+    }
+  }
+}
